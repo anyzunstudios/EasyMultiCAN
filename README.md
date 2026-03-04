@@ -11,7 +11,7 @@ The original library has been widely used for years, but many forks are effectiv
 
 ## Origin
 
-- **Upstream base:** `yexiaobo-seeedstudio/CAN_BUS_Shield`
+- **Upstream base:** [`yexiaobo-seeedstudio/CAN_BUS_Shield`]([https://example.com](https://github.com/yexiaobo-seeedstudio/CAN_BUS_Shield))
 - **Hardware target:** MCP2515 CAN controller + transceiver (TJA1050, MCP2551, etc.)
 - **Arduino platforms:** AVR (UNO, Mega2560) and similar SPI-capable boards
 
