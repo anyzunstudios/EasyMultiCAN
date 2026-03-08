@@ -1,3 +1,4 @@
+![EasyMultiCAN logo](CFB392C9-0A85-4970-B116-3DCB86844741.png)
 # EasyMultiCAN
 A modern, maintained revival of the classic yexiaobo-seeedstudio CAN_BUS_Shield Arduino library: cleaned up, fixed, and made reliable again.
 
