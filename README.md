@@ -1,6 +1,4 @@
-
 ![EasyMultiCAN logo](CFB392C9-0A85-4970-B116-3DCB86844741.png)
-
 # EasyMultiCAN
 
 EasyMultiCAN is a modern, maintained and improved revival of the classic
