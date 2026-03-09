@@ -210,7 +210,7 @@ This keeps the global CAN object but allows flexible chip select configuration.
 ## Multi‑Controller Support (Gateway Ready)
 
 Example:
-
+```
 #define MCP_CAN_NO_GLOBAL
 #include <mcp_can.h>
 
@@ -244,7 +244,7 @@ void loop() {
     CAN1.sendMsgBuf(id, 0, len, buf);
   }
 }
-
+```
 ---
 
 ## Notes
