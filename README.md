@@ -136,8 +136,8 @@ Many MCP2515 modules use 8 MHz crystals while shields often use 16 MHz.
 
 EasyMultiCAN supports both:
 
-CAN.begin(CAN_500KBPS, MCP_8MHZ);
-CAN.begin(CAN_500KBPS, MCP_16MHZ);
+- CAN.begin(CAN_500KBPS, MCP_8MHZ);
+- CAN.begin(CAN_500KBPS, MCP_16MHZ);
 
 This prevents corrupted frames, missing ACKs and unstable communication.
 
