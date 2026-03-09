@@ -199,10 +199,10 @@ Both transmission and reception were verified on real CAN networks.
 ## Runtime CS Pin Selection
 
 Example:
-
+```
 CAN.setCSPin(10);
 CAN.begin(CAN_500KBPS, MCP_8MHZ);
-
+```
 This keeps the global CAN object but allows flexible chip select configuration.
 
 ---
@@ -216,9 +216,9 @@ Example:
 
 MCP_CAN CAN0(10);
 MCP_CAN CAN1(9);
-
+```
 Example gateway (CAN0 → CAN1):
-
+```
 #define MCP_CAN_NO_GLOBAL
 #include <SPI.h>
 #include <mcp_can.h>
