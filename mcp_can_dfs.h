@@ -24,19 +24,24 @@
 #include <inttypes.h>
 
 #ifndef INT32U
-#define INT32U unsigned long
+typedef uint32_t INT32U;
 #endif
 
 #ifndef INT8U
-#define INT8U unsigned char
+typedef uint8_t INT8U;
 #endif
 
-// if print debug information
-#define DEBUG_MODE 1
+// Set to 1 to enable Serial debug prints inside the library.
+#ifndef DEBUG_MODE
+#define DEBUG_MODE 0
+#endif
+
 /*
- *   Begin mt
+ *   Basic driver timeouts (poll loop iterations)
  */
-#define TIMEOUTVALUE    50
+#ifndef TIMEOUTVALUE
+#define TIMEOUTVALUE    200
+#endif
 #define MCP_SIDH        0
 #define MCP_SIDL        1
 #define MCP_EID8        2
